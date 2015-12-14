@@ -16,7 +16,12 @@
   },
   "autoload": {
     "psr-4": {
-      "Lucid\\Mux\\Cache\\":""
+      "Lucid\\Mux\\Cache\\":"src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Lucid\\Mux\\Cache\\Tests\\":"tests/"
     }
   },
   "minimum-stability": "dev"
